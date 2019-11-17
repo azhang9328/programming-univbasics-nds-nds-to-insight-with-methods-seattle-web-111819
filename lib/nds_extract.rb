@@ -7,7 +7,7 @@ require 'directors_database'
 
 
 def directors_totals(nds)
-  puts gross_for_director(director_data)
+  puts gross_for_director(nds)
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
