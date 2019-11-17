@@ -7,7 +7,7 @@ require 'directors_database'
 
 
 def directors_totals(nds)
-
+  puts gross_for_director
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
@@ -20,5 +20,4 @@ def gross_for_director(director_data)
   movie_index += 1
   end
   return moviegross
-  puts moviegross
 end
